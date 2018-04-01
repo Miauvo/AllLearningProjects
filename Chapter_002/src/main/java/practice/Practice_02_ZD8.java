@@ -96,12 +96,15 @@ public class Practice_02_ZD8 {
         System.out.print("RRGGBB=");
         String color3= setColor(sc.nextLine());
 
-        System.out.println(color1+"          -----");
-        System.out.println(color1+"        ---------");
-        System.out.println(color2+"      -------------");
-        System.out.println(color2+"    -----------------");
-        System.out.println(color3+"  -----------------------");
-        System.out.println(color3+"---------------------------");
+        System.out.println(color3+"        _____");
+        System.out.println(color3+"       _______");
+        System.out.println(color3+"      _________");
+        System.out.println(color2+"     ___________");
+        System.out.println(color2+"    _____________");
+        System.out.println(color2+"   _______________");
+        System.out.println(color1+"  _________________");
+        System.out.println(color1+" ___________________");
+        System.out.println(color1+"_____________________");
 
         //System.out.println(color + "ЦВЕТ!");
 
