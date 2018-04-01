@@ -1,3 +1,4 @@
+import HW.HW_02_ZD1;
 import practice.*;
 
 public class Start {
@@ -16,7 +17,8 @@ public class Start {
         new Practice_02_ZD10();
         int i=0;
         while(i++<3) new Practice_02_ZD11();
-        //System.out.println(LINES_SEPARATOR+"\n\u001B[32mДомашнее задание:\n"+LINES_SEPARATOR +"\u001B[0m");
+        System.out.println(LINES_SEPARATOR+"\n\u001B[32mДомашнее задание:\n"+LINES_SEPARATOR +"\u001B[0m");
+        new HW_02_ZD1();
 
     }
 }
