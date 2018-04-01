@@ -87,13 +87,13 @@ public class Practice_02_ZD8 {
 
 
     public Practice_02_ZD8(){
-        System.out.println("\n\u001B[34m Задание 7 (Доп.):\u001B[0m");
+        System.out.println("\n\u001B[34m Задание 8 (Доп.):\u001B[0m");
         Scanner sc = new Scanner(System.in);
-        System.out.print("RRGGBB=");
+        System.out.print("RRGGBB (Например: ff00ff)=");
         String color1= setColor(sc.nextLine());
-        System.out.print("RRGGBB=");
+        System.out.print("RRGGBB (Например: 0000ff)=");
         String color2= setColor(sc.nextLine());
-        System.out.print("RRGGBB=");
+        System.out.print("RRGGBB  (Например: ff0055)=");
         String color3= setColor(sc.nextLine());
 
         System.out.println(color3+"        _____");

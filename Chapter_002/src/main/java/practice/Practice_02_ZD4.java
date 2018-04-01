@@ -6,9 +6,9 @@ public class Practice_02_ZD4 {
     public Practice_02_ZD4(){
         System.out.println("\n\u001B[34m Задание 4:\u001B[0m");
         Scanner sc = new Scanner(System.in);
-        System.out.print("A=");
+        System.out.print("A(Например: 10)=");
         int A = sc.nextInt();
-        System.out.print("B=");
+        System.out.print("B(Например: 3)=");
         int B =sc.nextInt();
         System.out.format("%d равно %d? %b%n",A,B,A==B);
         System.out.format("%d делиться на %d без остатка? %b%n",A,B,(A%B)==0);

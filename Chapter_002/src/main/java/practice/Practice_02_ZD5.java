@@ -6,11 +6,11 @@ public class Practice_02_ZD5 {
     public Practice_02_ZD5(){
         System.out.println("\n\u001B[34m Задание 5:\u001B[0m");
         Scanner sc = new Scanner(System.in);
-        System.out.print("A=");
+        System.out.print("A (Например: 12)=");
         int A = sc.nextInt();
-        System.out.print("B=");
+        System.out.print("B (Например: 40)=");
         int B =sc.nextInt();
-        System.out.print("C=");
+        System.out.print("C (Например: 9) =");
         int C =sc.nextInt();
         System.out.format("является ли A наибольшим числом? %b%n",  (A>B&&A>C));
         System.out.format("является ли B наибольшим числом? %b%n",  (B>A&&B>C));
