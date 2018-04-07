@@ -12,10 +12,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Chapter_001" target="1.5" />
-      <module name="Chapter_002" target="1.7" />
-      <module name="Chapter_003" target="1.5" />
-      <module name="TestProjects" target="1.5" />
+      <module name="Chapter_001" target="1.8" />
+      <module name="Chapter_002" target="1.8" />
+      <module name="Chapter_003" target="1.8" />
+      <module name="TestProjects" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
