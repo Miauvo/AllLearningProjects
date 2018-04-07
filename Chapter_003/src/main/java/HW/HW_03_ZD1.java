@@ -7,9 +7,9 @@ public class HW_03_ZD1 {
     public HW_03_ZD1() {
         System.out.println("\n\u001B[34m Задание 1:\u001B[0m");
         Scanner sc = new Scanner(System.in);
-        System.out.print("Размерность массива=");
+        System.out.print("Размерность массива (Рекомендую до 10)=");
         int n = sc.nextInt();
-        System.out.println("Введите елементы массива (int)=");
+        System.out.println("Введите елементы массива (int, и с повторами)=");
         int array[] = new int[n];
         for (int i = 0; i <n; i++) {
             System.out.print("array["+i+"] =");
