@@ -9,7 +9,7 @@ public class Practice_03_ZD2 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Размерность массива=");
         int n = sc.nextInt();
-        System.out.println("Введите елементы массива=");
+        System.out.println("Введите елементы массива (int)=");
         int array[] = new int[n];
         for (int i = 0; i <n; i++) {
             System.out.print("array["+i+"] =");

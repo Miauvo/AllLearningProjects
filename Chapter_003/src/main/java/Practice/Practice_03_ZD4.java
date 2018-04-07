@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Practice_03_ZD4 {
 
     public Practice_03_ZD4(){
-        System.out.println("\n\u001B[34m Задание 3:\u001B[0m");
+        System.out.println("\n\u001B[34m Задание 4:\u001B[0m");
         Scanner sc = new Scanner(System.in);
         System.out.print("Размерность массива A =");
         int n = sc.nextInt();

@@ -17,7 +17,7 @@ public class Practice_03_ZD3 {
         }
         System.out.println(Arrays.toString(A));
 
-        System.out.print("Размерность массива B =");
+        System.out.print("Размерность массива B (желательно отличной от А) =");
         int m = sc.nextInt();
         int B[] = new int[m];
         System.out.println("Генерация елементов массива... Массив B:");

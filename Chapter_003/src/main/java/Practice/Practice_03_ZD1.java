@@ -18,9 +18,9 @@ public class Practice_03_ZD1 {
     public Practice_03_ZD1(){
         System.out.println("\n\u001B[34m Задание 1:\u001B[0m");
         Scanner sc = new Scanner(System.in);
-        System.out.print("Введите первое число=");
+        System.out.print("Введите первое число (Напр: 123)=");
         int A = sc.nextInt();
-        System.out.print("Введите второе число=");
+        System.out.print("Введите второе число (Напр: 4246)=");
         int B = sc.nextInt();
      //   int A=123;int B=4246;
         A = ReverseInt(A);

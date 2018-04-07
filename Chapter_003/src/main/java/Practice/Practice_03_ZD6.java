@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Practice_03_ZD6 {
 
     public Practice_03_ZD6(){
-        System.out.println("\n\u001B[34m Задание 3:\u001B[0m");
+        System.out.println("\n\u001B[34m Задание 6:\u001B[0m");
         Scanner sc = new Scanner(System.in);
         System.out.print("Ширина =");
         int n = sc.nextInt();
