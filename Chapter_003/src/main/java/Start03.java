@@ -1,7 +1,7 @@
 import HW.*;
 import Practice.*;
 
-public class Start {
+public class Start03 {
     final static String LINES_SEPARATOR = "\u001B[32m********************************************************\u001B[0m";
     public static void main(String[] args) {
         System.out.println(LINES_SEPARATOR+"\n\u001B[32mПрактика:\n"+LINES_SEPARATOR +"\u001B[0m");

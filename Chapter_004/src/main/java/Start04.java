@@ -1,17 +1,13 @@
-import HW.HomeWork01;
-import practice.*;
+import Practice.Practice_04_ZD1;
 
-public class Start {
+public class Start04 {
     final static String LINES_SEPARATOR = "\u001B[32m********************************************************\u001B[0m";
     public static void main(String[] args) {
         System.out.println(LINES_SEPARATOR+"\n\u001B[32mПрактика:\n"+LINES_SEPARATOR +"\u001B[0m");
-        PreStart preStart = new PreStart();
-        new Practice_01_ZD1();
-        new Practice_01_ZD2();
-        new Practice_01_ZD3();
-        new Practice_01_ZD4();
+        Practice_04_ZD1 practice_04_zd1 = new Practice_04_ZD1();
+
         System.out.println(LINES_SEPARATOR+"\n\u001B[32mДомашнее задание:\n"+LINES_SEPARATOR +"\u001B[0m");
-        new HomeWork01();
+     //   HW_03_ZD1 hw_03_zd1= new HW_03_ZD1();
 
     }
 }
