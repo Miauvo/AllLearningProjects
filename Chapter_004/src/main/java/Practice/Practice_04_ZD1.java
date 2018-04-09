@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Practice_04_ZD1 {
     int indexMax(int[]array){
-        System.out.println("\nfirst function:");
+        System.out.println("first function:");
         int index=0;
         int max=array[0];
         for (int i = 0; i < array.length; i++) {
@@ -17,6 +17,7 @@ public class Practice_04_ZD1 {
     }
 
     int index(int []array){
+        System.out.print("second function:\n\t");
         return array[indexMax(array)];
     }
 
@@ -28,8 +29,8 @@ public class Practice_04_ZD1 {
         for (int i = 0; i < n; i++) {
             array[i]= (int)(Math.random()*(50-10)+10);
         }
-        System.out.format(Arrays.toString(array));
+        System.out.format(Arrays.toString(array)+"\n");
         System.out.println("index = " + indexMax(array));
-        System.out.println("index = " + index(array));
+        System.out.println("element = " + index(array));
     }
 }
