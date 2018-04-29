@@ -1,4 +1,4 @@
-package HW;
+package HW.HW_1;
 
 class CarWheel {
     /**Хранит

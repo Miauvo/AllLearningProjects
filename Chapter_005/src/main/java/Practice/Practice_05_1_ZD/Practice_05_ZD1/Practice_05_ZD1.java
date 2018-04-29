@@ -1,4 +1,4 @@
-package Practice.Practice_05_ZD1;
+package Practice.Practice_05_1_ZD.Practice_05_ZD1;
 
 import java.util.Scanner;
 

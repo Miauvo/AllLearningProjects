@@ -1,9 +1,6 @@
-package HW;
-
-
-
-        import java.util.Arrays;
-        import java.util.Date;
+package HW.HW_1;
+import java.util.Arrays;
+import java.util.Date;
 
 public class Car {
     /**Класс Car

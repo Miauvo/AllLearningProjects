@@ -1,10 +1,19 @@
-package Practice.Practice_05_ZD1;
+package Practice.Practice_05_1_ZD.Practice_05_ZD3;
 
 import java.text.DecimalFormat;
 
-class Point{
+class Point {
+
     private double x;
     private double y;
+
+    public double getX() {
+        return x;
+    }
+
+    public double getY() {
+        return y;
+    }
 
     public Point(double x, double y) {
         this.x = x;
@@ -12,10 +21,10 @@ class Point{
 
     }
 
-    @Override
+     @Override
     public String toString() {
         DecimalFormat df = new DecimalFormat("#.##");
-        return this.getClass() + "{" +
+        return  "{" +
                 "x=" + df.format(this.x) +
                 ", y=" + df.format(this.y) +
                 '}';
