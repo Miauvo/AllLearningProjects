@@ -17,7 +17,7 @@
       <module name="Chapter_002" target="1.7" />
       <module name="Chapter_003" target="1.8" />
       <module name="Chapter_004" target="1.5" />
-      <module name="Chapter_005" target="1.5" />
+      <module name="Chapter_005" target="8" />
       <module name="Chapter_005_0" target="1.5" />
       <module name="TestProjects" target="1.5" />
     </bytecodeTargetLevel>

@@ -18,13 +18,14 @@ public class Start05 {
         return retVal;
     }
 
+
     public static void main(String[] args) {
         System.out.println(LINES_SEPARATOR+"\n\u001B[32mТема 5:\n"+LINES_SEPARATOR +"\u001B[0m");
         Scanner sc = new Scanner(System.in);
         int choise = 0;
         do {
             System.out.println("Какую задачу Вы хотите решить?(от 0 до 3):");
-            choise = tryParse(sc.nextLine());
+           // choise = tryParse(sc.nextLine());
             switch (choise) {
                 case 0:
                     new Start_005_0();
@@ -44,9 +45,9 @@ public class Start05 {
             }
 
             System.out.println("\nПродолжить просмотр програм? (1 ► Да, 0 ► Нет)");
-            choise = tryParse(sc.nextLine());
+            //choise = tryParse(sc.nextLine());
 
-        } while (choise == 1);
+        } while (choise != 1);
         System.out.println("Bye-bye ♥ ");
     }
 

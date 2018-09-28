@@ -6,7 +6,7 @@ public class CarDoor {
 
     //Конструкторы
     public CarDoor() {
-        this.openDoor = true;
+        this.openDoor = false;
         this.openWindow = true;
     }
 
@@ -43,11 +43,16 @@ public class CarDoor {
             this.openWindow = true;
     }
 
+
+    public String ShowDoors() {
+        return "Door{open:" + openDoor + "}";
+    }
+    public String ShowWindows() {
+        return "Window{open:" + openWindow + "}";
+    }
+
     @Override
     public String toString() {
-        return "CarDoor{" +
-                "openDoor=" + openDoor +
-                ", openWindow=" + openWindow +
-                '}';
+        return ShowDoors()+" "+ ShowWindows();
     }
 }
